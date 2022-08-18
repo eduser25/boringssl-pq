@@ -210,6 +210,7 @@ crypto_headers = [
     "src/include/openssl/x509.h",
     "src/include/openssl/x509_vfy.h",
     "src/include/openssl/x509v3.h",
+    "src/crypto/kyber/kyber.c",
 ]
 
 crypto_internal_headers = [
@@ -379,7 +380,6 @@ crypto_sources = [
     "src/crypto/hkdf/hkdf.c",
     "src/crypto/hpke/hpke.c",
     "src/crypto/hrss/hrss.c",
-    "src/crypto/kyber/kyber.c",
     "src/crypto/kyber/kyber512.c",
     "src/crypto/kyber/kyber768.c",
     "src/crypto/lhash/lhash.c",
